@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background: #F4BBC2;
+}
+nav .brand h2{
+    font-size: 15px;
+    margin-top: -2.2rem;
+    margin-left: 4.5rem;
+}
+nav .brand {
+    z-index: 1000;
+}
+nav .brand h5{
+    font-size: 9px;
+    margin-left: 4.5rem;
+}
+nav .brand img{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 35px;
+    width: 35px;
+}
+nav{
+    padding-bottom: 3rem;
+}
+header{
+    width: 100%;
+    height: 90%;
+    padding: 2rem 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+nav .links ul li  {
+    color: black;
+    margin-top: -1.2rem;
+}
+ul li a{
+    text-decoration: none;
+    padding: 1rem;
+}
+ul li a:hover{
+    color: black;
+}
+ul .active a{
+    background-color: none;
+    color: black;
+    position: absolute;
+    top: 2.7%;
+    z-index: 100;
+    right: 18%;
+}
+header .img img{
+    width: 60%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 40%;
+}
+.face{
+    position: absolute;
+    top: 7%;
+    right: 15%;
+    z-index: 100;
+}
+.twitter{
+    position: absolute;
+    top: 7%;
+    z-index: 100;
+    right: 10%;
+}
+.youtube{
+    position: absolute;
+    top: 7%;
+    z-index: 100;
+    right: 5%;
+}
+header .content h1{
+margin: 2rem 7rem;
+    z-index: 1000;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+header .content p{
+    margin-left: 7rem;
+    color: rgb(88, 88, 88);
+}
+header .content a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background: transparent;
+    margin: 7rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 45%;
+}
+header .content a:hover{
+    background-color: palevioletred;
+    color: black;
+    border: none;
+}
+.about{
+    margin-top: 18.5rem;
+padding: 5rem;
+padding-bottom: 2rem;
+background-color: white;
+}
+.about .img img{
+    margin: 6.4rem 7rem;
+    margin-top: 2rem;
+    width: 40%;
+    height: 60%;
+}
+.about .content h1{
+    margin-left: 33rem;
+    margin-top: -22rem;
+    font-size: 3rem;
+}
+.about .content h3{
+    font-size: 1rem;
+    margin-left: 38.4rem;
+}
+.about .content p{
+    width: 30rem;
+    margin-left: 38.4rem;
+    margin-top: 1rem;
+}
+.howto{
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    padding-bottom: 8rem;
+}
+.howto h2{
+    font-size: 2rem;
+}
+.boxes{
+    margin: 2rem 0;
+    display: flex;
+    flex-flow: row;
+    color: black;
+}
+
+.boxes .box1 h1{
+    color: pink;
+    font-size: 12rem;
+    margin-left: 10rem;
+}
+.boxes .box1 h2{
+    text-align: start;
+    font-size: 1rem;
+    width: 17rem;
+    position: absolute;
+    top: 235%;
+    left: 20%;
+}
+.boxes .box2 h1{
+    color: pink;
+    margin-left: 10rem;
+    font-size: 12rem;
+}
+.boxes .box2 h2{
+    text-align: start;
+    font-size: 1rem;
+    width: 17rem;
+    position: absolute;
+    top: 235%;
+    left: 48%;
+}
+.boxes .box3 h1{
+    color: pink;
+    margin-left: 10rem;
+    font-size: 12rem;
+}
+.boxes .box3 h2{
+    text-align: start;
+    font-size: 1rem;
+    width: 17rem;
+    position: absolute;
+    top: 235%;
+    left: 76%;
+}
+.howto a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background: transparent;
+    margin: 7rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 245%;
+    left: 35%;
+}
+.howto a:hover{
+    background-color: palevioletred;
+    color: black;
+    border: none;
+}
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .left{
+    padding: 15%;
+    padding-left: 40%;
+    margin-left: -15rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer .left h3{
+    position: absolute;
+    top: 115rem;
+    left: 13rem;
+}
+footer .left input{
+    margin-left: -19rem;
+    padding: 0.5rem 2rem;
+}
+footer .left a{
+    text-decoration: none;
+    color: white;
+    background: palevioletred;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    position: absolute;
+    top: 124.8rem;
+    left: 16.5rem;
+}
+footer .left a:hover{
+    background: transparent;
+    color: white;border: 1px solid white;
+}
+footer .right{
+    padding: 15%;
+    padding-right: 40%;
+    margin-right: -15rem;
+    text-align: center;
+}
+footer .right h3{
+    position: absolute;
+    top: 115rem;
+    right: 13rem;
+}
+footer .right a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 120.8rem;
+    right: 15.5rem;border: 1px solid rgb(255, 255, 255);
+}
+footer .right a:hover{
+    background: palevioletred;
+    color: white;border: none;
+}
